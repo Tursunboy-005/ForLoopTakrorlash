@@ -11,7 +11,8 @@ namespace ForLoopTakrorlash
         static void Main(string[] args)
         {
             Console.Write("Enter number size of Romb : ");
-            int n = int.Parse(Console.ReadLine());
+            int m = int.Parse(Console.ReadLine());
+            int n = (m / 2) + 1;
 
             for(int i = 1; i <= n; i++)
             {
